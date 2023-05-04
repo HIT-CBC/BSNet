@@ -1,7 +1,7 @@
 # Prediction of HR status of breast cancer by weakly supervised deep learning model based on mammography images
+Hormone receptor (HR) molecular status is commonly used clinical subtype information and is the foundation of precise treatment. However, subtyping diagnosis of breast cancer requires pathological biopsy, which may alter tumor morphology. Therefore, in this work, we intended to achieve non-invasive breast cancer diagnosis and provide HR status information through mammography screening. We used the multi-view of unlabeled mammography images to develop a weakly supervised deep learning framework BSNet with superior performance and implemented a webserver, which provided convenience for the subtype diagnosis of breast cancer.
 
 ![workflow - 副本-01](https://user-images.githubusercontent.com/97509376/236117355-94ecad88-2bfb-4840-891f-dbebae8393df.png)
-
 
 ## Getting Started
 Python3, pytorch>=1.8.0,torchvision>=0.7.0 are required for the current codebase
